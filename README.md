@@ -13,6 +13,11 @@ This simulation demonstrates the integration of the DH robotics gripper with the
 
 
 <h1><b> ROS Cobot integration </h1><b/>
+  
+ ```
+$ echo hello
+hello
+```
 
 The Omron Cobot that is used for this study is the TM5M-700 Cobot. It has ROS integration capabilties
 We used the package https://github.com/TechmanRobotInc/tmr_ros1 for implementing the ROS connection with the robot.
