@@ -91,7 +91,7 @@ The gripper is now mounted on the flange of the cobot and now can be used for py
  ```
 
 
-<p><img align ="left" src="https://github.com/dhruvtalwar18/AMR_Cobot/blob/main/Moveit_integration_vids/Gripper_Cobot_moveit.gif" title="Cobot Path Planning" width = "420" height = "280" ><img align ="right" src="https://github.com/dhruvtalwar18/AMR_Cobot/blob/main/Moveit_integration_vids/gripper_cobot_moveit-2.gif" title="Gripper Control" width = "420" height = "280" ></p><br><br><br><br><br><br><br><br>
+<p><img align ="left" src="https://github.com/dhruvtalwar18/AMR_Cobot/blob/main/Moveit_integration_vids/Gripper_Cobot_moveit.gif" title="Cobot Path Planning" width = "400" height = "280" ><img align ="right" src="https://github.com/dhruvtalwar18/AMR_Cobot/blob/main/Moveit_integration_vids/gripper_cobot_moveit-2.gif" title="Gripper Control" width = "400" height = "280" ></p><br><br><br><br><br><br><br><br>
 <br><br><br><br><br>
 <p align="center">Fig.3 Moveit Package controlling Cobot and gripper respectively </p><br>
 <br><br>
