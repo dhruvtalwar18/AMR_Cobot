@@ -72,11 +72,46 @@ Once the gripper is connected we can run a python script to relay position and f
  
 Note the initialize has to be set to False after an initial True else the gripper will keep on initializing and not be working
  
+<p align = "center"> <img src="https://github.com/dhruvtalwar18/AMR_Cobot/blob/main/Moveit_integration_vids/ROS_Gripper_Control.gif" title="Result 2" height= "600" width = "350"></p>
+<p align="center">Fig.2 Gripper control Using ROS drivers</p>
+
  
  
+<b><h1> Cobot-Gripper Integration for Pick and Place</h1></b>
+
+The gripper is now mounted on the flange of the cobot and now can be used for python script based pick and place. As the gripper is now mounted on the cobot the same moveit package cannot be used for trajectory planning as it is not aware of the newly attached gripper. To overcome this a new Moveit package was created with the AG-95 gripper at the end of the cobot flange. Now the trajectories that are executed take in consideration of the gripper that is present.
+ 
+ To launch the cobot + gripper simulation in move it, the following should be launched
+ 
+ ```
+ $ roslaunch gripper_with_robot_moveit_config moveit_planning_execution.launch choice_arg=:False  #For Cobot control
+ 
+ $ roslaunch gripper_with_robot_moveit_config moveit_planning_execution.launch choice_arg=:True  #For Gripper control
+ 
+ ```
 
 
+<p><img align ="left" src="https://github.com/dhruvtalwar18/AMR_Cobot/blob/main/Moveit_integration_vids/Gripper_Cobot_moveit.gif" title="Cobot Path Planning" width = "420" height = "280" ><img align ="right" src="https://github.com/dhruvtalwar18/AMR_Cobot/blob/main/Moveit_integration_vids/gripper_cobot_moveit-2.gif" title="Gripper Control" width = "420" height = "280" ></p><br><br><br><br><br><br><br><br>
+<br><br><br><br><br>
+<p align="center">Fig.3 Moveit Package controlling Cobot and gripper respectively </p><br>
+<br><br>
+ 
+To fully control the cobot and the gripper to perform a simple manual pick and place, a single python script was created which asks the user whether the current maneuver to the given pose is of grip, release or idling, and accordingly then the cobot goes to the given poses picks/places the object.
 
+ 
+```
+ $ rosrun CRND CRND
+ 
+```
+ 
+ 
+ 
+  
+<p align = "center"> <img src="https://github.com/dhruvtalwar18/AMR_Cobot/blob/main/Moveit_integration_vids/Sample_pick_place.gif" title="Sample Pick and Place" height= "600" width = "350"></p>
+<p align="center">Fig.2 Gripper control Using ROS drivers</p>
+
+
+ 
 
   
 
@@ -92,17 +127,5 @@ This simulation demonstrates the integration of the DH robotics gripper with the
 <p align="center">Fig.2 Demo showing Gripping Action</p>
 
 
-<h1><b> ROS Cobot integration </h1><b/>
-  
- ```
-$ echo hello
-hello
-```
-
-The Omron Cobot that is used for this study is the TM5M-700 Cobot. It has ROS integration capabilties
-We used the package https://github.com/TechmanRobotInc/tmr_ros1 for implementing the ROS connection with the robot.
-  
-  
-This simulation demonstrates the integration of the DH robotics gripper with the Omron Cobot and shows the capabilities of the combined product
 <p align = "center"> <img src="https://github.com/dhruvtalwar18/AMR_Cobot/blob/main/Demo%20Vids/ROS_COBOT_TEST_1.gif" title="Result 2 height = "400"></p>
 <p align="center">Fig.3 Moveit Integration with actual Cobot </p>
