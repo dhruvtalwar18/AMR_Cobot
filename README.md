@@ -59,15 +59,13 @@ Once downloaded in the workspace, it can be used after building the workspace. O
 In case the gripper is unable to open the port, the following needs to be run:
  
 ```
- $ sudo chmod 666 /dev/ttyUSB0
- 
+ $ sudo chmod 666 /dev/ttyUSB0 
 ```
  
 Once the gripper is connected we can run a python script to relay position and force values to the gripper, the position value will vary from [0-1000] and the force value will vary from [0-100]
  
 ```
- rosrun dh_robotics_driver roscontrol.py
- 
+ rosrun dh_robotics_driver gripper_ros_mov.py 
 ```
  
 Note the initialize has to be set to False after an initial True else the gripper will keep on initializing and not be working
@@ -86,8 +84,7 @@ The gripper is now mounted on the flange of the cobot and now can be used for py
  ```
  $ roslaunch gripper_with_robot_moveit_config moveit_planning_execution.launch choice_arg=:False  #For Cobot control
  
- $ roslaunch gripper_with_robot_moveit_config moveit_planning_execution.launch choice_arg=:True  #For Gripper control
- 
+ $ roslaunch gripper_with_robot_moveit_config moveit_planning_execution.launch choice_arg=:True  #For Gripper control 
  ```
 
 
@@ -96,18 +93,18 @@ The gripper is now mounted on the flange of the cobot and now can be used for py
 <p align="center">Fig.3 Moveit Package controlling Cobot and gripper respectively </p><br>
 <br><br>
  
-To fully control the cobot and the gripper to perform a simple manual pick and place, a single python script was created which asks the user whether the current maneuver to the given pose is of grip, release or idling, and accordingly then the cobot goes to the given poses picks/places the object.
+To fully control the cobot and the gripper to perform a simple manual pick and place, a single python script was created which asks the user whether the current maneuver to the given pose is of grip, release or idling, and accordingly then the cobot goes to the given poses picks/places the object. Instead of the quaternion we had now replaced the orientation inputs with Euler angles as they are much more easier to understand and can be given easily.
 
  
 ```
- $ rosrun CRND CRND
+ $ PLS INSERT
  
 ```
  
  
  
   
-<p align = "center"> <img src="https://github.com/dhruvtalwar18/AMR_Cobot/blob/main/Moveit_integration_vids/Sample_pick_place.gif" title="Sample Pick and Place" height= "600" width = "350"></p>
+<p align = "center"> <img src="https://github.com/dhruvtalwar18/AMR_Cobot/blob/main/Moveit_integration_vids/Pick_Place_pose_estimation.gif" title="Sample Pick and Place" height= "600" width = "350"></p>
 <p align="center">Fig.4 Complete Pick and Place using ROS</p>
 
 
