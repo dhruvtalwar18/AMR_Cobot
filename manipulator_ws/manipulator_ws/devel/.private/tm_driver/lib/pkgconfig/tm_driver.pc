@@ -1,0 +1,8 @@
+prefix=/home/dhruv/manipulator_ws/devel/.private/tm_driver
+
+Name: tm_driver
+Description: Description of tm_driver
+Version: 1.1.1
+Cflags: -I/home/dhruv/manipulator_ws/src/tmr_ros1/tm_driver/include
+Libs: -L${prefix}/lib 
+Requires: actionlib control_msgs geometry_msgs roscpp sensor_msgs

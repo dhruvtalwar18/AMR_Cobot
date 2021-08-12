@@ -1,0 +1,6 @@
+devel_space: /home/dhruv/manipulator_ws/devel
+install: false
+install_space: /home/dhruv/manipulator_ws/install
+profile: default
+source_space: /home/dhruv/manipulator_ws/src
+workspace: /home/dhruv/manipulator_ws

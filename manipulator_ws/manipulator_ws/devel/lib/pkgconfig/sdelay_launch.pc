@@ -1,0 +1,1 @@
+/home/dhruv/manipulator_ws/devel/.private/sdelay_launch/lib/pkgconfig/sdelay_launch.pc

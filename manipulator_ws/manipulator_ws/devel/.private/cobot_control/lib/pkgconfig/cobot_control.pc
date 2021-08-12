@@ -1,0 +1,8 @@
+prefix=/home/dhruv/manipulator_ws/devel/.private/cobot_control
+
+Name: cobot_control
+Description: Description of cobot_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/dhruv/manipulator_ws/devel/.private/dh_gripper_driver
+
+Name: dh_gripper_driver
+Description: Description of dh_gripper_driver
+Version: 0.0.0
+Cflags: -I/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs

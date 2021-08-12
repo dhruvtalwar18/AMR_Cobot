@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/dhruv/manipulator_ws/devel/.private/gripper_with_robot_moveit_config/setup.sh

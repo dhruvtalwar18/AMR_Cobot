@@ -1,0 +1,8 @@
+prefix=/home/dhruv/manipulator_ws/devel/.private/tmr_description
+
+Name: tmr_description
+Description: Description of tmr_description
+Version: 1.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

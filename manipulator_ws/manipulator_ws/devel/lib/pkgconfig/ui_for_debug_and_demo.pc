@@ -1,0 +1,1 @@
+/home/dhruv/manipulator_ws/devel/.private/ui_for_debug_and_demo/lib/pkgconfig/ui_for_debug_and_demo.pc

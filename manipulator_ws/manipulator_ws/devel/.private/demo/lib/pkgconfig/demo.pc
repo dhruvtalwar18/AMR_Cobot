@@ -1,0 +1,8 @@
+prefix=/home/dhruv/manipulator_ws/devel/.private/demo
+
+Name: demo
+Description: Description of demo
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/dhruv/manipulator_ws/devel/.private/tm_msgs
+
+Name: tm_msgs
+Description: Description of tm_msgs
+Version: 1.1.1
+Cflags: -I/home/dhruv/manipulator_ws/devel/.private/tm_msgs/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs sensor_msgs geometry_msgs

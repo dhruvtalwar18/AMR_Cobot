@@ -1,0 +1,8 @@
+prefix=/home/dhruv/manipulator_ws/devel/.private/dh_robotics_ag95_description
+
+Name: dh_robotics_ag95_description
+Description: Description of dh_robotics_ag95_description
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

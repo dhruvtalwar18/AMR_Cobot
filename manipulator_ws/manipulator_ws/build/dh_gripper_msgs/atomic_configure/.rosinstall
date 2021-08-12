@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/dhruv/manipulator_ws/devel/.private/dh_gripper_msgs/setup.sh

@@ -1,0 +1,100 @@
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:[m[K In function ‘[01m[Kvoid AG95_Test()[m[K’:
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:66:33:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+                                 [01;35m[Kif[m[K(_g_state.grip_state == 0);
+                                 [01;35m[K^~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:67:41:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+                                         [01;36m[Ktest_state[m[K = 2;
+                                         [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:70:33:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+                                 [01;35m[Kif[m[K(_g_state.grip_state != 0);
+                                 [01;35m[K^~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:71:41:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+                                         [01;36m[Ktest_state[m[K = 3;
+                                         [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:85:33:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+                                 [01;35m[Kif[m[K(_g_state.grip_state == 0);
+                                 [01;35m[K^~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:86:41:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+                                         [01;36m[Ktest_state[m[K = 6;
+                                         [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:89:33:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+                                 [01;35m[Kif[m[K(_g_state.grip_state != 0);
+                                 [01;35m[K^~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:90:41:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+                                         [01;36m[Ktest_state[m[K = 7;
+                                         [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:[m[K In function ‘[01m[Kvoid DH3_Test()[m[K’:
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:128:33:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+                                 [01;35m[Kif[m[K(_g_state.grip_state == 0);
+                                 [01;35m[K^~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:129:41:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+                                         [01;36m[Ktest_state[m[K = 2;
+                                         [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:132:33:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+                                 [01;35m[Kif[m[K(_g_state.grip_state != 0);
+                                 [01;35m[K^~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:133:41:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+                                         [01;36m[Ktest_state[m[K = 3;
+                                         [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:147:33:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+                                 [01;35m[Kif[m[K(_g_state.grip_state == 0);
+                                 [01;35m[K^~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:148:41:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+                                         [01;36m[Ktest_state[m[K = 6;
+                                         [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:151:33:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+                                 [01;35m[Kif[m[K(_g_state.grip_state != 0);
+                                 [01;35m[K^~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:152:41:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+                                         [01;36m[Ktest_state[m[K = 7;
+                                         [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:[m[K In function ‘[01m[Kvoid ModbusGripper_test()[m[K’:
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:190:33:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+                                 [01;35m[Kif[m[K(_g_state.grip_state == 0);
+                                 [01;35m[K^~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:191:41:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+                                         [01;36m[Ktest_state[m[K = 2;
+                                         [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:194:33:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+                                 [01;35m[Kif[m[K(_g_state.grip_state != 0);
+                                 [01;35m[K^~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:195:41:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+                                         [01;36m[Ktest_state[m[K = 3;
+                                         [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:209:33:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+                                 [01;35m[Kif[m[K(_g_state.grip_state == 0);
+                                 [01;35m[K^~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:210:41:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+                                         [01;36m[Ktest_state[m[K = 6;
+                                         [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:213:33:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+                                 [01;35m[Kif[m[K(_g_state.grip_state != 0);
+                                 [01;35m[K^~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:214:41:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+                                         [01;36m[Ktest_state[m[K = 7;
+                                         [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:[m[K In function ‘[01m[Kvoid RGI_test()[m[K’:
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:252:33:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+                                 [01;35m[Kif[m[K(_g_state.grip_state == 0);
+                                 [01;35m[K^~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:253:41:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+                                         [01;36m[Ktest_state[m[K = 2;
+                                         [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:256:33:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+                                 [01;35m[Kif[m[K(_g_state.grip_state != 0);
+                                 [01;35m[K^~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:257:41:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+                                         [01;36m[Ktest_state[m[K = 3;
+                                         [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:271:33:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+                                 [01;35m[Kif[m[K(_g_state.grip_state == 0);
+                                 [01;35m[K^~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:272:41:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+                                         [01;36m[Ktest_state[m[K = 6;
+                                         [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:275:33:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+                                 [01;35m[Kif[m[K(_g_state.grip_state != 0);
+                                 [01;35m[K^~[m[K
+[01m[K/home/dhruv/manipulator_ws/src/ros_1/src/dh_gripper_driver/src/dh_gripper_Test.cpp:276:41:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+                                         [01;36m[Ktest_state[m[K = 7;
+                                         [01;36m[K^~~~~~~~~~[m[K

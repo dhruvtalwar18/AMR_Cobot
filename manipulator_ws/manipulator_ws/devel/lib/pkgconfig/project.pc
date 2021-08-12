@@ -1,0 +1,1 @@
+/home/dhruv/manipulator_ws/devel/.private/project/lib/pkgconfig/project.pc

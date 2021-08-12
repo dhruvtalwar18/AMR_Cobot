@@ -1,0 +1,1 @@
+/home/dhruv/manipulator_ws/devel/.private/dh_robotics_ag95_moveit_config/lib/pkgconfig/dh_robotics_ag95_moveit_config.pc

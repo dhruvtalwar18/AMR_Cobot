@@ -1,0 +1,1 @@
+/home/dhruv/manipulator_ws/devel/.private/cobot_control/lib/pkgconfig/cobot_control.pc
