@@ -104,7 +104,7 @@ To fully control the cobot and the gripper to perform a simple manual pick and p
  
  
   
-<p align = "center"> <img src="https://github.com/dhruvtalwar18/AMR_Cobot/blob/main/Moveit_integration_vids/Pick_Place_pose_estimation.gif" title="Sample Pick and Place" height= "600" width = "350"></p>
+<p align = "center"> <img src="https://github.com/dhruvtalwar18/AMR_Cobot/blob/main/Moveit_integration_vids/Pick_Place_pose_estimation.gif" title="Sample Pick and Place" height= "350" width = "600"></p>
 <p align="center">Fig.4 Complete Pick and Place using ROS</p>
 
 
