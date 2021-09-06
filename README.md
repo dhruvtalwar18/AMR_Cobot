@@ -1,4 +1,4 @@
-# AMR and Cobot
+# Mobile Collaborative robot
 
 The aim of the project is to integrate a working AMR and a ROS compatible cobot arm to develop a smart material handling robot capable of several mobile pick and place tasks.
 The AMR will move in the factory floor and when an order is called the AMR shall go to a buffer station and intimate the ROS controlled cobot which shall then identify and pick the required raw material from the storage rack and place it on the AMR, then the AMR will take the product to the specific location where the raw material is needed.
