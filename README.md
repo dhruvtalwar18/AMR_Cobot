@@ -109,6 +109,8 @@ To fully control the cobot and the gripper to perform a simple manual pick and p
 
 <b><h1> Mobile Cobot Developments </h1></b>
  
+ With the successful control of the cobot arm and the gripper, now we aim at integrating the ROS controlled AMR with the ROS master of the Cobot. This is to ensure that the cobot knows when to start the pick and place operation, and intimate the AMR when it has successfully picked or placed an object. 
+ 
 <p align = "center"> <img src="https://github.com/dhruvtalwar18/Mobile_Collaborative_Robot/blob/main/Moveit_integration_vids/AMR_Cobot.gif" title="AMR Cobot integration" height= "600" width = "360"></p>
 <p align="center">Fig.5 AMR Cobot Integration</p>
   
