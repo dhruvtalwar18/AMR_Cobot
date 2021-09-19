@@ -97,7 +97,7 @@ To fully control the cobot and the gripper to perform a simple manual pick and p
 
  
 ```
- $ PLS INSERT
+ $ rosrun cobot_control new_pose_full.py
  
 ```
  
